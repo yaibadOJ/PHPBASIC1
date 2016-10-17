@@ -11,7 +11,10 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo 'Hello LOO'
+        echo 'Hello LOO';
+        echo '<hr>';
+        $arr=['delpi','php','java','javascript'];
+        print_r($arr);
         ?>
     </body>
 </html>
